@@ -1,11 +1,25 @@
-import styles from "./page.module.css";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import FloatingWhatsapp from "@/components/FloatingWhatsapp";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <ol>
-        Terzi kendi söküğünü dikemez.
-      </ol>
-    </div>
+    <main>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+      <FloatingWhatsapp />
+    </main>
   );
 }
