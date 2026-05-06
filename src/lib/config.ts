@@ -6,7 +6,7 @@ export const siteConfig = {
   name: "Emre Atilla",
   title: "Mobile Developer",
   domain: "emreatill.com.tr",
-  url: "https://emreatill.com.tr",
+  url: "https://emreatilla.com.tr",
   location: "İstanbul, Türkiye",
 
   contact: {

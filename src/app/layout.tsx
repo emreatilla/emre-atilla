@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://emreatill.com.tr",
+    url: "https://emreatilla.com.tr",
     siteName: "Emre Atilla",
     title: "Emre Atilla — Mobile Developer",
     description:
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://emreatill.com.tr",
+    canonical: "https://emreatilla.com.tr",
   },
 };
 
